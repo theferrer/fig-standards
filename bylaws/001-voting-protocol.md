@@ -24,9 +24,9 @@ example:
 6. The measure passes if a simple majority of the *votes cast* are "in favor".
 The measure does not pass otherwise. For example:
 
-    - If there are 10 or 11 votes cast, 6 or more must be "in favor".
+    * If there are 10 or 11 votes cast, 6 or more must be "in favor".
 
-    - If there are 12 or 13 votes cast, 7 or more must be "in favor".
+    * If there are 12 or 13 votes cast, 7 or more must be "in favor".
 
 7. Measures passed are not binding. A vote "in favor" of a measure is an
 indication that the measure is approved, but the voting member may not be able
