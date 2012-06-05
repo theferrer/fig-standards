@@ -333,7 +333,7 @@ abstract class ClassName
 }
 ```
 
-### 4.4 Method and Function Calls
+### 4.5 Method and Function Calls
 
 When making a method or function call, there MUST NOT be a space between the
 method or function name and the opening parenthesis, there MUST NOT be a space
@@ -355,9 +355,9 @@ next line, and there MUST be only one argument per line.
 ```php
 <?php
 $foo->bar(
-   $longArgument,
-   $longerArgument,
-   $muchLongerArgument
+    $longArgument,
+    $longerArgument,
+    $muchLongerArgument
 );
 ```
 
@@ -397,7 +397,7 @@ if ($expr1) {
 ```
 
 The keyword `elseif` SHOULD be used instead of `else if` so that all control
-keywords looks like single words.
+keywords look like single words.
 
 
 ### 5.2. `switch`, `case`
@@ -516,11 +516,11 @@ parentheses, commas, spaces, and braces:
 ```php
 <?php
 $closureWithArgs = function ($arg1, $arg2) {
-  // body
+    // body
 };
 
 $closureWithArgsAndVars = function ($arg1, $arg2) use ($var1, $var2) {
-  // body
+    // body
 };
 ```
 
@@ -539,45 +539,45 @@ variable lists split across multiple lines.
 ```php
 <?php
 $longArgs_noVars = function (
-   $longArgument,
-   $longerArgument,
-   $muchLongerArgument
+    $longArgument,
+    $longerArgument,
+    $muchLongerArgument
 ) {
    // body
 };
 
 $noArgs_longVars = function () use (
-   $longVar1,
-   $longerVar2,
-   $muchLongerVar3
+    $longVar1,
+    $longerVar2,
+    $muchLongerVar3
 ) {
    // body
 };
 
 $longArgs_longVars = function (
-   $longArgument,
-   $longerArgument,
-   $muchLongerArgument
+    $longArgument,
+    $longerArgument,
+    $muchLongerArgument
 ) use (
-   $longVar1,
-   $longerVar2,
-   $muchLongerVar3
+    $longVar1,
+    $longerVar2,
+    $muchLongerVar3
 ) {
    // body
 };
 
 $longArgs_shortVars = function (
-   $longArgument,
-   $longerArgument,
-   $muchLongerArgument
+    $longArgument,
+    $longerArgument,
+    $muchLongerArgument
 ) use ($var1) {
    // body
 };
 
 $shortArgs_longVars = function ($arg) use (
-   $longVar1,
-   $longerVar2,
-   $muchLongerVar3
+    $longVar1,
+    $longerVar2,
+    $muchLongerVar3
 ) {
    // body
 };
